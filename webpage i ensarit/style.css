@@ -1,0 +1,85 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    position: relative;
+    background: #ecc76f;
+    color: #111;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+}
+nav .logo{
+    font-size: 53px;
+    font-family: 'Lobster', cursive;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #111;
+    padding: 20px;
+}
+nav ul li a:hover{
+    background:#111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 650px;
+    font-size: 55px;
+}
+.boat{
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 1000px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.title-2{
+    margin-top: 100px;
+    margin-left: 770px;
+    font-size: 55px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.col-1 img{
+    width: 600px;
+    border-radius: 10px;
+}
+.col-2 h1{
+    text-align: center;
+    font-size: 30px;
+}
+.credits{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 90px;
+    background: #fff;
+    padding: 30px;
+}
